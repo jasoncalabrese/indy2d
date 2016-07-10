@@ -1,6 +1,43 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-07-10T00:02:00 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-07-10T00:02:00-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "40c2004a10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-07-10T00:02:00 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-07-10T00:02:00-07:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "40c2004a10"
+  }, 
+  {
+    "_type": "Sara6E", 
+    "_description": "Sara6E 2016-07-10T00:00:00 head[1], body[49] op[0x6e]", 
+    "timestamp": "2016-07-10T00:00:00-07:00", 
+    "_body": "05008b60ca03000003bc029e46011e1e006400c60000002800300300010300000000000000000000000000000000000000", 
+    "_head": "6e", 
+    "valid_date": "2016-07-09", 
+    "_date": "6990"
+  }, 
+  {
+    "_type": "ResultDailyTotal", 
+    "_description": "ResultDailyTotal 2016-07-10T00:00:00 head[5], body[3] op[0x07]", 
+    "timestamp": "2016-07-10T00:00:00-07:00", 
+    "_body": "000000", 
+    "_head": "07000003bc", 
+    "valid_date": "2016-07-09", 
+    "_date": "6990"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-07-09T23:55:25 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-09T23:55:25-07:00", 
     "_body": "", 
@@ -4970,37 +5007,5 @@
     "_head": "3324", 
     "rate": 0.9, 
     "_date": "4bc4154810"
-  }, 
-  {
-    "programmed": 0.3, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-07-08T20:55:42 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-07-08T20:55:42-07:00", 
-    "_body": "", 
-    "_head": "01000c000c001a00", 
-    "amount": 0.3, 
-    "unabsorbed": 0.65, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "6af7346810"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "_description": "BGReceived 2016-07-08T20:55:26 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-07-08T20:55:26-07:00", 
-    "_body": "c23647", 
-    "_head": "3f1b", 
-    "amount": 220, 
-    "link": "c23647", 
-    "_date": "5af7946810"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-07-08T20:55:26 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-07-08T20:55:26-07:00", 
-    "_body": "", 
-    "_head": "0adc", 
-    "amount": 220, 
-    "_date": "5af7346810"
   }
 ]
