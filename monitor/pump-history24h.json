@@ -2,6 +2,25 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-07-17T01:00:35 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-07-17T01:00:35", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "63c0015110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-07-17T01:00:35 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-07-17T01:00:35", 
+    "_body": "00", 
+    "_head": "3351", 
+    "rate": 2.025, 
+    "_date": "63c0015110"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-07-17T00:53:28 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-17T00:53:28", 
     "_body": "", 
@@ -4890,47 +4909,5 @@
     "_head": "3341", 
     "rate": 1.625, 
     "_date": "5ec5164f10"
-  }, 
-  {
-    "programmed": 0.6, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-07-15T21:59:06 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-07-15T21:59:06", 
-    "_body": "", 
-    "_head": "0100180018003e00", 
-    "amount": 0.6, 
-    "unabsorbed": 1.55, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "46fb356f10"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "offset": 70200000, 
-    "_description": "BasalProfileStart 2016-07-15T21:55:04 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-07-15T21:55:04", 
-    "_body": "271e00", 
-    "profile_index": 8, 
-    "_head": "7b08", 
-    "rate": 0.75, 
-    "_date": "44f7150f10"
-  }, 
-  {
-    "_type": "ChangeBasalProfile_new_profile", 
-    "_description": "ChangeBasalProfile_new_profile 2016-07-15T21:55:03 head[2], body[145] op[0x09]", 
-    "timestamp": "2016-07-15T21:55:03", 
-    "_body": "0018000518000717000815000e16001618001c1c00241800271e002c210000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
-    "_head": "090a", 
-    "rate": "offset", 
-    "_date": "43f7150f10"
-  }, 
-  {
-    "_type": "ChangeBasalProfile_old_profile", 
-    "_description": "ChangeBasalProfile_old_profile 2016-07-15T21:55:03 head[2], body[145] op[0x08]", 
-    "timestamp": "2016-07-15T21:55:03", 
-    "_body": "0018000518000715000812000e16001618001c1c00251800271e002c210000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
-    "_head": "080a", 
-    "rate": "offset", 
-    "_date": "43f7150f10"
   }
 ]
