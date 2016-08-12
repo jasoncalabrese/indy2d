@@ -7,88 +7,87 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-12T06:07:31.000Z", 
+      "timestamp": "2016-08-12T06:12:16.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 97.85, 
-    "clock": "2016-08-11T23:07:25-07:00"
+    "clock": "2016-08-11T23:12:10-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 85, 
+      "bg": 86, 
       "temp": "absolute", 
-      "snoozeBG": 50, 
-      "timestamp": "2016-08-12T06:08:43.000Z", 
-      "predBGs": {
-        "IOB": [
-          85, 
-          77, 
-          69, 
-          63, 
-          57, 
-          52, 
-          48, 
-          45, 
-          43, 
-          41, 
-          41, 
-          42, 
-          43, 
-          44, 
-          46, 
-          48, 
-          50, 
-          52, 
-          54, 
-          56, 
-          58, 
-          60, 
-          62, 
-          63, 
-          65, 
-          67, 
-          68, 
-          69, 
-          71, 
-          72, 
-          73, 
-          73, 
-          74, 
-          75, 
-          75, 
-          75, 
-          76
-        ]
-      }, 
-      "reason": "COB: 0, Dev: -30, BGI: -3.69, ISF: 89.9, Target: 80; Eventual BG 50 < 80, setting -0.575U/hr, but 23m left and 0 ~ req 0U/hr: no action required", 
+      "snoozeBG": 95, 
+      "timestamp": "2016-08-12T06:13:38.000Z", 
+      "rate": 0.9, 
+      "reason": "COB: 0, Dev: 3, BGI: -3.25, ISF: 87.9, Target: 80; Eventual BG 95 >= 80, temp 0<0.9U/hr", 
       "COB": 0, 
-      "eventualBG": 50, 
-      "tick": -3, 
-      "IOB": 0.056
+      "eventualBG": 95, 
+      "duration": 30, 
+      "tick": "+1", 
+      "IOB": -0.08
     }, 
     "iob": {
-      "netbasalinsulin": 1.45, 
-      "timestamp": "2016-08-12T06:07:25.000Z", 
-      "activity": 0.0082, 
-      "basaliob": 0.056, 
+      "netbasalinsulin": 1.35, 
+      "timestamp": "2016-08-12T06:12:10.000Z", 
+      "activity": 0.0074, 
+      "basaliob": -0.08, 
       "hightempinsulin": 1.95, 
       "bolussnooze": 0, 
-      "iob": 0.056
+      "iob": -0.08
     }, 
     "enacted": {
-      "bg": 87, 
+      "bg": 86, 
       "temp": "absolute", 
-      "snoozeBG": 35, 
+      "snoozeBG": 95, 
       "recieved": true, 
-      "reason": "COB: 10, Dev: -31, BGI: -4.32, ISF: 89.9, Target: 80; Eventual BG 35 < 80, setting -1.25U/hr", 
-      "rate": 0, 
-      "COB": 10, 
-      "eventualBG": 35, 
-      "timestamp": "2016-08-12T06:00:00.000Z", 
+      "predBGs": {
+        "IOB": [
+          86, 
+          83, 
+          81, 
+          79, 
+          77, 
+          76, 
+          75, 
+          75, 
+          75, 
+          76, 
+          77, 
+          78, 
+          80, 
+          82, 
+          84, 
+          85, 
+          87, 
+          89, 
+          91, 
+          93, 
+          95, 
+          97, 
+          98, 
+          100, 
+          102, 
+          103, 
+          104, 
+          105, 
+          106, 
+          107, 
+          108, 
+          109, 
+          109, 
+          110
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 3, BGI: -3.25, ISF: 87.9, Target: 80; Eventual BG 95 >= 80, temp 0<0.9U/hr", 
+      "rate": 0.9, 
+      "COB": 0, 
+      "eventualBG": 95, 
+      "timestamp": "2016-08-12T06:13:50.000Z", 
       "duration": 30, 
-      "tick": -1, 
-      "IOB": 0.233
+      "tick": "+1", 
+      "IOB": -0.08
     }
   }, 
   "mmtune": {
@@ -101,7 +100,7 @@
       [
         "916.588", 
         5, 
-        -60
+        -59
       ], 
       [
         "916.612", 
@@ -111,26 +110,26 @@
       [
         "916.636", 
         5, 
-        -59
+        -58
       ], 
       [
         "916.660", 
         5, 
-        -59
+        -58
       ], 
       [
         "916.684", 
         5, 
-        -61
+        -60
       ], 
       [
         "916.708", 
         5, 
-        -73
+        -72
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2016-08-12T06:07:14.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-08-12T06:11:59.000Z", 
     "usedDefault": false
   }
 }
