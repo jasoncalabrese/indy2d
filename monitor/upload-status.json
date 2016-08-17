@@ -7,78 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-17T09:54:13.000Z", 
+      "timestamp": "2016-08-17T10:02:42.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 123.575, 
-    "clock": "2016-08-17T02:54:09-07:00"
+    "reservoir": 123.5, 
+    "clock": "2016-08-17T03:02:38-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 100, 
-      "temp": "absolute", 
-      "snoozeBG": 143, 
-      "timestamp": "2016-08-17T09:55:43.000Z", 
-      "rate": 0.7, 
-      "reason": "COB: 0, Dev: -3, BGI: 1.63, ISF: 112.5, Target: 129; Eventual BG 143 >= 129, temp 0.45<0.7U/hr", 
-      "COB": 0, 
-      "eventualBG": 143, 
-      "duration": 30, 
-      "tick": "+1", 
-      "IOB": -0.506
+      "timestamp": "2016-08-17T10:03:41.000Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Wed Aug 17 2016 02:52:46 GMT-0700 (PDT) but your system time is Wed Aug 17 2016 03:03:41 GMT-0700 (PDT)"
     }, 
     "iob": {
-      "netbasalinsulin": -0.65, 
-      "timestamp": "2016-08-17T09:54:09.000Z", 
-      "activity": -0.0029, 
-      "basaliob": -0.506, 
-      "hightempinsulin": 0.25, 
+      "netbasalinsulin": -0.8, 
+      "timestamp": "2016-08-17T10:02:38.000Z", 
+      "activity": -0.0034, 
+      "basaliob": -0.478, 
+      "hightempinsulin": 0.1, 
       "bolussnooze": 0, 
-      "iob": -0.506
+      "iob": -0.478
     }, 
     "enacted": {
       "bg": 100, 
       "temp": "absolute", 
       "snoozeBG": 143, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          100, 
-          101, 
-          103, 
-          104, 
-          106, 
-          108, 
-          110, 
-          113, 
-          115, 
-          118, 
-          121, 
-          124, 
-          127, 
-          129, 
-          132, 
-          135, 
-          137, 
-          139, 
-          142, 
-          144, 
-          145, 
-          147, 
-          149, 
-          150, 
-          151, 
-          152, 
-          153, 
-          154, 
-          154, 
-          155, 
-          155, 
-          155, 
-          156
-        ]
-      }, 
       "reason": "COB: 0, Dev: -3, BGI: 1.63, ISF: 112.5, Target: 129; Eventual BG 143 >= 129, temp 0.45<0.7U/hr", 
       "rate": 0.675, 
       "COB": 0, 
@@ -92,38 +46,43 @@
   "mmtune": {
     "scanDetails": [
       [
+        "916.540", 
+        5, 
+        -74
+      ], 
+      [
         "916.564", 
         5, 
-        -58
+        -61
       ], 
       [
         "916.588", 
         5, 
-        -56
+        -59
       ], 
       [
         "916.612", 
         5, 
-        -56
+        -58
       ], 
       [
         "916.636", 
         5, 
-        -56
+        -58
       ], 
       [
         "916.660", 
         5, 
-        -57
+        -59
       ], 
       [
         "916.684", 
         5, 
-        -60
+        -62
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-08-17T09:53:53.000Z", 
+    "timestamp": "2016-08-17T10:02:25.000Z", 
     "usedDefault": false
   }
 }
