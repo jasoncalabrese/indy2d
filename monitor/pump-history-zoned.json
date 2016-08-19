@@ -1,5 +1,45 @@
 [
   {
+    "programmed": 0.3, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-08-18T21:07:16 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-08-18T21:07:16-07:00", 
+    "_body": "", 
+    "_head": "01000c000c001000", 
+    "amount": 0.3, 
+    "unabsorbed": 0.4, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "9007357210"
+  }, 
+  {
+    "_type": "Prime", 
+    "_description": "Prime 2016-08-18T21:03:20 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-08-18T21:03:20-07:00", 
+    "_body": "", 
+    "_head": "0300030003", 
+    "amount": 0.3, 
+    "fixed": 0.3, 
+    "type": "fixed", 
+    "_date": "9403151210"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2016-08-18T21:03:18 head[2], body[0] op[0x0c]", 
+    "timestamp": "2016-08-18T21:03:18-07:00", 
+    "_body": "", 
+    "_head": "0c4a", 
+    "_date": "9203151210"
+  }, 
+  {
+    "_type": "AlarmPump", 
+    "_description": "AlarmPump 2016-08-18T21:02:00 head[4], body[0] op[0x06]", 
+    "timestamp": "2016-08-18T21:02:00-07:00", 
+    "_body": "", 
+    "_head": "064a0926", 
+    "_date": "800255b210"
+  }, 
+  {
     "_type": "Prime", 
     "_description": "Prime 2016-08-18T20:36:44 head[5], body[0] op[0x03]", 
     "timestamp": "2016-08-18T20:36:44-07:00", 
@@ -1088,24 +1128,5 @@
     "_head": "331b", 
     "rate": 0.675, 
     "_date": "b4080f5210"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-08-18T14:46:55 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-08-18T14:46:55-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "b72e0e5210"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-08-18T14:46:55 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-08-18T14:46:55-07:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "b72e0e5210"
   }
 ]
