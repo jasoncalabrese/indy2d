@@ -7,83 +7,84 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-21T14:32:23.000Z", 
+      "timestamp": "2016-08-21T14:37:02.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 76.9, 
-    "clock": "2016-08-21T07:32:20-07:00"
+    "reservoir": 76.8, 
+    "clock": "2016-08-21T07:36:59-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 160, 
+      "bg": 163, 
       "temp": "absolute", 
-      "snoozeBG": 148, 
-      "timestamp": "2016-08-21T14:34:10.000Z", 
-      "rate": 1.2, 
-      "reason": "COB: 0, Dev: 15, BGI: -0.42, ISF: 93, Target: 117; Eventual BG 148 >= 117, 28m@0.975 = 0.455 > req 0.33+20%. Setting temp basal of 1.2U/hr", 
+      "snoozeBG": 150, 
+      "timestamp": "2016-08-21T14:39:00.000Z", 
+      "predBGs": {
+        "IOB": [
+          163, 
+          165, 
+          167, 
+          169, 
+          170, 
+          171, 
+          172, 
+          171, 
+          171, 
+          169, 
+          167, 
+          165, 
+          162, 
+          159, 
+          155, 
+          152, 
+          148, 
+          145, 
+          141, 
+          137, 
+          133, 
+          130, 
+          127, 
+          124, 
+          121, 
+          118, 
+          116, 
+          113, 
+          111, 
+          109, 
+          108, 
+          106, 
+          105, 
+          104, 
+          103, 
+          103, 
+          102, 
+          102, 
+          102, 
+          102, 
+          101
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 18, BGI: -0.42, ISF: 93, Target: 117; Eventual BG 150 >= 117, 30m@0.975 = 0.487 > req 0.36+20%. Setting temp basal of 1.25U/hr, but 30m left and 1.5 ~ req 1.25U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 148, 
-      "duration": 30, 
-      "tick": "+2", 
-      "IOB": 0.29
+      "eventualBG": 150, 
+      "tick": "+3", 
+      "IOB": 0.336
     }, 
     "iob": {
       "netbasalinsulin": 0.7, 
-      "timestamp": "2016-08-21T14:32:20.000Z", 
+      "timestamp": "2016-08-21T14:36:59.000Z", 
       "activity": 0.0009, 
-      "basaliob": 0.29, 
+      "basaliob": 0.336, 
       "hightempinsulin": 0.75, 
       "bolussnooze": 0, 
-      "iob": 0.29
+      "iob": 0.336
     }, 
     "enacted": {
       "bg": 160, 
       "temp": "absolute", 
       "snoozeBG": 148, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          160, 
-          162, 
-          163, 
-          165, 
-          166, 
-          166, 
-          167, 
-          166, 
-          166, 
-          165, 
-          163, 
-          161, 
-          158, 
-          156, 
-          153, 
-          149, 
-          146, 
-          143, 
-          139, 
-          136, 
-          133, 
-          130, 
-          127, 
-          124, 
-          121, 
-          119, 
-          117, 
-          115, 
-          113, 
-          111, 
-          110, 
-          108, 
-          107, 
-          106, 
-          106, 
-          105, 
-          105, 
-          104
-        ]
-      }, 
       "reason": "COB: 0, Dev: 15, BGI: -0.42, ISF: 93, Target: 117; Eventual BG 148 >= 117, 28m@0.975 = 0.455 > req 0.33+20%. Setting temp basal of 1.2U/hr", 
       "rate": 1.175, 
       "COB": 0, 
@@ -98,42 +99,42 @@
     "scanDetails": [
       [
         "916.540", 
-        3, 
-        -90
+        2, 
+        -89
       ], 
       [
         "916.564", 
-        5, 
-        -74
+        4, 
+        -69
       ], 
       [
         "916.588", 
         5, 
-        -71
+        -59
       ], 
       [
         "916.612", 
         5, 
-        -71
+        -58
       ], 
       [
         "916.636", 
         5, 
-        -71
+        -58
       ], 
       [
         "916.660", 
         5, 
-        -72
+        -59
       ], 
       [
         "916.684", 
         5, 
-        -75
+        -67
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-08-21T14:32:06.000Z", 
+    "timestamp": "2016-08-21T14:36:45.000Z", 
     "usedDefault": false
   }
 }
