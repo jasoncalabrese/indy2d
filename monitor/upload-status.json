@@ -7,105 +7,109 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-09-04T12:22:23.000Z", 
+      "timestamp": "2016-09-04T12:27:22.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 125.35, 
-    "clock": "2016-09-04T05:22:25-07:00"
+    "clock": "2016-09-04T05:27:24-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 103, 
+      "bg": 104, 
       "temp": "absolute", 
-      "snoozeBG": 92, 
-      "timestamp": "2016-09-04T12:23:38.000Z", 
-      "predBGs": {
-        "IOB": [
-          103, 
-          99, 
-          96, 
-          93, 
-          90, 
-          88, 
-          86, 
-          85, 
-          84, 
-          83, 
-          83, 
-          84, 
-          85, 
-          86, 
-          87, 
-          88, 
-          90, 
-          91, 
-          92, 
-          94, 
-          95, 
-          96, 
-          98, 
-          99, 
-          100, 
-          101, 
-          102, 
-          103, 
-          104, 
-          104, 
-          105, 
-          105, 
-          106, 
-          106, 
-          106, 
-          107
-        ]
-      }, 
-      "reason": "COB: 0, Dev: -20, BGI: 0.32, ISF: 90, Target: 115; Eventual BG 92 < 115, setting -0.525U/hr, but 25m left and 0 ~ req 0U/hr: no action required", 
+      "snoozeBG": 103, 
+      "timestamp": "2016-09-04T12:28:20.000Z", 
+      "rate": 0, 
+      "reason": "COB: 0, Dev: -15, BGI: 0.27, ISF: 90, Target: 115; Eventual BG 103 < 115, setting -0.025U/hr", 
       "COB": 0, 
-      "eventualBG": 92, 
-      "tick": -4, 
-      "IOB": -0.102
+      "eventualBG": 103, 
+      "duration": 30, 
+      "tick": "+1", 
+      "IOB": -0.15
     }, 
     "iob": {
       "netbasalinsulin": -0.5, 
-      "timestamp": "2016-09-04T12:22:25.000Z", 
-      "activity": -0.0007, 
-      "basaliob": -0.102, 
+      "timestamp": "2016-09-04T12:27:24.000Z", 
+      "activity": -0.0006, 
+      "basaliob": -0.15, 
       "hightempinsulin": 0.2, 
       "bolussnooze": 0, 
-      "iob": -0.102
+      "iob": -0.15
     }, 
     "enacted": {
-      "bg": 114, 
+      "bg": 104, 
       "temp": "absolute", 
-      "snoozeBG": 84, 
+      "snoozeBG": 103, 
       "recieved": true, 
-      "reason": "COB: 0, Dev: -28, BGI: 0.99, ISF: 90, Target: 115; Eventual BG 84 < 115, setting -0.875U/hr", 
+      "predBGs": {
+        "IOB": [
+          104, 
+          102, 
+          100, 
+          98, 
+          97, 
+          96, 
+          95, 
+          94, 
+          94, 
+          94, 
+          95, 
+          95, 
+          97, 
+          98, 
+          99, 
+          100, 
+          102, 
+          103, 
+          104, 
+          106, 
+          107, 
+          108, 
+          109, 
+          110, 
+          111, 
+          112, 
+          113, 
+          114, 
+          115, 
+          116, 
+          116, 
+          116, 
+          117, 
+          117, 
+          117, 
+          117, 
+          117, 
+          118
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -15, BGI: 0.27, ISF: 90, Target: 115; Eventual BG 103 < 115, setting -0.025U/hr", 
       "rate": 0, 
       "COB": 0, 
-      "eventualBG": 84, 
-      "timestamp": "2016-09-04T12:04:05.000Z", 
+      "eventualBG": 103, 
+      "timestamp": "2016-09-04T12:29:21.000Z", 
       "duration": 30, 
-      "tick": -4, 
-      "IOB": 0.023
+      "tick": "+1", 
+      "IOB": -0.15
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
         "916.300", 
-        3, 
-        -87
-      ], 
-      [
-        "916.324", 
         2, 
         -91
       ], 
       [
+        "916.372", 
+        1, 
+        -95
+      ], 
+      [
         "916.540", 
-        5, 
-        -59
+        4, 
+        -67
       ], 
       [
         "916.564", 
@@ -120,7 +124,7 @@
       [
         "916.612", 
         5, 
-        -49
+        -48
       ], 
       [
         "916.636", 
@@ -135,11 +139,11 @@
       [
         "916.684", 
         5, 
-        -53
+        -52
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-09-04T12:22:06.000Z", 
+    "timestamp": "2016-09-04T12:27:04.000Z", 
     "usedDefault": false
   }
 }
