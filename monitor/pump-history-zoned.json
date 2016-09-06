@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-09-06T03:28:36 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-09-06T03:28:36-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "a45c034610"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-09-06T03:28:36 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-09-06T03:28:36-07:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "a45c034610"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-09-06T03:16:10 head[2], body[0] op[0x16]", 
     "timestamp": "2016-09-06T03:16:10-07:00", 
     "_body": "", 
@@ -933,84 +952,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "a45c154510"
-  }, 
-  {
-    "_type": "Prime", 
-    "_description": "Prime 2016-09-05T21:23:43 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-09-05T21:23:43-07:00", 
-    "_body": "", 
-    "_head": "0300030003", 
-    "amount": 0.3, 
-    "fixed": 0.3, 
-    "type": "fixed", 
-    "_date": "ab57150510"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2016-09-05T21:23:53 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-09-05T21:23:53-07:00", 
-    "_body": "271e00", 
-    "profile_index": 8, 
-    "_head": "7b08", 
-    "rate": 0.75, 
-    "offset": 70200000, 
-    "_date": "b557150510"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2016-09-05T21:23:41 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-09-05T21:23:41-07:00", 
-    "_body": "271e00", 
-    "profile_index": 8, 
-    "_head": "7b08", 
-    "rate": 0.75, 
-    "offset": 70200000, 
-    "_date": "a957150510"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2016-09-05T21:23:41 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-09-05T21:23:41-07:00", 
-    "_body": "271e00", 
-    "profile_index": 8, 
-    "_head": "7b08", 
-    "rate": 0.75, 
-    "offset": 70200000, 
-    "_date": "a957150510"
-  }, 
-  {
-    "_type": "ClearAlarm", 
-    "_description": "ClearAlarm 2016-09-05T21:23:41 head[2], body[0] op[0x0c]", 
-    "timestamp": "2016-09-05T21:23:41-07:00", 
-    "_body": "", 
-    "_head": "0c4a", 
-    "_date": "a957150510"
-  }, 
-  {
-    "_type": "AlarmPump", 
-    "_description": "AlarmPump 2016-09-05T21:23:00 head[4], body[0] op[0x06]", 
-    "timestamp": "2016-09-05T21:23:00-07:00", 
-    "_body": "", 
-    "_head": "064a0926", 
-    "_date": "805755a510"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "_description": "BGReceived 2016-09-05T21:17:58 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-09-05T21:17:58-07:00", 
-    "_body": "c23647", 
-    "_head": "3f09", 
-    "amount": 78, 
-    "link": "c23647", 
-    "_date": "ba51d56510"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-09-05T21:17:58 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-09-05T21:17:58-07:00", 
-    "_body": "", 
-    "_head": "0a4e", 
-    "amount": 78, 
-    "_date": "ba51356510"
   }
 ]
