@@ -1,5 +1,37 @@
 [
   {
+    "programmed": 0.3, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-09-12T22:35:40 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-09-12T22:35:40", 
+    "_body": "", 
+    "_head": "01000c000c000600", 
+    "amount": 0.3, 
+    "unabsorbed": 0.15, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "a863366c10"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-09-12T22:35:20 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-09-12T22:35:20", 
+    "_body": "c23647", 
+    "_head": "3f16", 
+    "amount": 180, 
+    "_date": "9463966c10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-09-12T22:35:20 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-09-12T22:35:20", 
+    "_body": "", 
+    "_head": "0ab4", 
+    "amount": 180, 
+    "_date": "9463366c10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-09-12T22:29:03 head[2], body[0] op[0x16]", 
@@ -847,55 +879,5 @@
     "_head": "3316", 
     "rate": 0.55, 
     "_date": "b167104c10"
-  }, 
-  {
-    "programmed": 0.6, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-09-12T16:32:14 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-09-12T16:32:14", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 1.75, 
-            "age": 254
-          }, 
-          {
-            "amount": 0.8, 
-            "age": 424
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c0846fec020a8d0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100180018000000", 
-    "amount": 0.6, 
-    "unabsorbed": 0.0, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "8e60300c10"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "bg_target_high": 180, 
-    "_description": "BolusWizard 2016-09-12T16:32:14 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-09-12T16:32:14", 
-    "_body": "125000c85a730000240000000024b4", 
-    "_head": "5b00", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "_date": "8e60100c10", 
-    "bolus_estimate": 0.9, 
-    "bg_target_low": 115, 
-    "carb_ratio": 20.0, 
-    "food_estimate": 0.9, 
-    "carb_input": 18, 
-    "sensitivity": 90
   }
 ]
