@@ -7,118 +7,111 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-10-16T10:26:16.000Z", 
+      "timestamp": "2016-10-16T10:30:52.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 100.125, 
-    "clock": "2016-10-16T03:26:31-07:00"
+    "reservoir": 100.075, 
+    "clock": "2016-10-16T03:31:09-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 102, 
+      "bg": 103, 
       "temp": "absolute", 
-      "snoozeBG": 126, 
-      "timestamp": "2016-10-16T10:27:40.000Z", 
-      "rate": 0.825, 
-      "reason": "COB: 0, Dev: 1, BGI: 1.9, ISF: 93, Target: 112; Eventual BG 126 >= 112, temp 0.8<0.825U/hr", 
+      "snoozeBG": 119, 
+      "timestamp": "2016-10-16T10:31:54.000Z", 
+      "rate": 0.525, 
+      "reason": "COB: 0, Dev: -1, BGI: 1.86, ISF: 93, Target: 112; Eventual BG 119 > 112 but Min. Delta 1.00 < Exp. Delta 1.5; setting current basal of 0.525 as temp", 
       "COB": 0, 
-      "eventualBG": 126, 
+      "eventualBG": 119, 
       "duration": 30, 
-      "tick": "+2", 
-      "IOB": -0.255
+      "tick": "+1", 
+      "IOB": -0.186
     }, 
     "iob": {
-      "netbasalinsulin": -0.7, 
-      "timestamp": "2016-10-16T10:26:31.000Z", 
-      "activity": -0.0041, 
-      "basaliob": -0.255, 
-      "hightempinsulin": 0.05, 
+      "netbasalinsulin": -0.65, 
+      "timestamp": "2016-10-16T10:31:09.000Z", 
+      "activity": -0.004, 
+      "basaliob": -0.186, 
+      "hightempinsulin": 0.1, 
       "bolussnooze": 0, 
-      "iob": -0.255
+      "iob": -0.186
     }, 
     "enacted": {
-      "bg": 102, 
+      "bg": 103, 
       "temp": "absolute", 
-      "snoozeBG": 126, 
+      "snoozeBG": 119, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
-          102, 
+          103, 
           104, 
+          105, 
           106, 
-          108, 
+          107, 
+          109, 
           110, 
+          111, 
           112, 
           113, 
+          113, 
+          114, 
+          115, 
+          115, 
           115, 
           116, 
-          118, 
-          119, 
-          120, 
-          120, 
-          121, 
-          121, 
-          122, 
-          122, 
-          122, 
-          122, 
-          122, 
-          122, 
-          122, 
-          122, 
-          122, 
-          121, 
-          121, 
-          121, 
-          121, 
-          120, 
-          120, 
-          120, 
-          119
+          116, 
+          116, 
+          116, 
+          116, 
+          116, 
+          116, 
+          115, 
+          115, 
+          115, 
+          115, 
+          114, 
+          114, 
+          114, 
+          113
         ]
       }, 
-      "reason": "COB: 0, Dev: 1, BGI: 1.9, ISF: 93, Target: 112; Eventual BG 126 >= 112, temp 0.8<0.825U/hr", 
-      "rate": 0.8, 
+      "reason": "COB: 0, Dev: -1, BGI: 1.86, ISF: 93, Target: 112; Eventual BG 119 > 112 but Min. Delta 1.00 < Exp. Delta 1.5; setting current basal of 0.525 as temp", 
+      "rate": 0.525, 
       "COB": 0, 
-      "eventualBG": 126, 
-      "timestamp": "2016-10-16T10:27:58.000Z", 
-      "duration": 19, 
-      "tick": "+2", 
-      "IOB": -0.255
+      "eventualBG": 119, 
+      "timestamp": "2016-10-16T10:32:30.000Z", 
+      "duration": 30, 
+      "tick": "+1", 
+      "IOB": -0.186
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
-        "916.540", 
-        5, 
-        -76
-      ], 
-      [
         "916.564", 
-        5, 
-        -66
+        4, 
+        -74
       ], 
       [
         "916.588", 
         5, 
-        -63
+        -66
       ], 
       [
         "916.612", 
         5, 
-        -62
+        -65
       ], 
       [
         "916.636", 
         5, 
-        -62
+        -66
       ], 
       [
         "916.660", 
         5, 
-        -63
+        -66
       ], 
       [
         "916.684", 
@@ -126,8 +119,8 @@
         -67
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2016-10-16T10:25:57.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2016-10-16T10:30:32.000Z", 
     "usedDefault": false
   }
 }
