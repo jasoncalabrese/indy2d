@@ -1,6 +1,114 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-10-17T22:09:11 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-17T22:09:11-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "8b89165110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-17T22:09:11 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-17T22:09:11-07:00", 
+    "_body": "00", 
+    "_head": "3364", 
+    "rate": 2.5, 
+    "_date": "8b89165110"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-10-17T22:06:58 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-17T22:06:58-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "ba86165110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-17T22:06:58 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-17T22:06:58-07:00", 
+    "_body": "00", 
+    "_head": "3382", 
+    "rate": 3.25, 
+    "_date": "ba86165110"
+  }, 
+  {
+    "programmed": 0.6, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-10-17T22:04:33 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-10-17T22:04:33-07:00", 
+    "_body": "", 
+    "_head": "0100180018000c00", 
+    "amount": 0.6, 
+    "unabsorbed": 0.3, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "a184367110"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "_description": "BGReceived 2016-10-17T22:03:42 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-10-17T22:03:42-07:00", 
+    "_body": "c23647", 
+    "_head": "3f15", 
+    "amount": 175, 
+    "link": "c23647", 
+    "_date": "aa83f67110"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-10-17T22:03:42 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-10-17T22:03:42-07:00", 
+    "_body": "", 
+    "_head": "0aaf", 
+    "amount": 175, 
+    "_date": "aa83367110"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-10-17T22:02:32 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-17T22:02:32-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "a082165110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-17T22:02:32 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-17T22:02:32-07:00", 
+    "_body": "00", 
+    "_head": "3362", 
+    "rate": 2.45, 
+    "_date": "a082165110"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-10-17T22:01:50 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-17T22:01:50-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "b281165110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-17T22:01:50 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-17T22:01:50-07:00", 
+    "_body": "00", 
+    "_head": "3365", 
+    "rate": 2.525, 
+    "_date": "b281165110"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-10-17T21:51:24 head[2], body[0] op[0x16]", 
     "timestamp": "2016-10-17T21:51:24-07:00", 
     "_body": "", 
@@ -3755,43 +3863,5 @@
     "fixed": 0.3, 
     "type": "fixed", 
     "_date": "b08b131010"
-  }, 
-  {
-    "_type": "Prime", 
-    "_description": "Prime 2016-10-16T19:04:02 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-10-16T19:04:02-07:00", 
-    "_body": "", 
-    "_head": "0300000031", 
-    "amount": 4.9, 
-    "fixed": 0.0, 
-    "type": "manual", 
-    "_date": "8284331010"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2016-10-16T19:03:24 head[2], body[0] op[0x21]", 
-    "timestamp": "2016-10-16T19:03:24-07:00", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "9883131010"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "_description": "BGReceived 2016-10-16T18:53:25 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-10-16T18:53:25-07:00", 
-    "_body": "c23647", 
-    "_head": "3f14", 
-    "amount": 160, 
-    "link": "c23647", 
-    "_date": "99b5127010"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-10-16T18:53:25 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-10-16T18:53:25-07:00", 
-    "_body": "", 
-    "_head": "0aa0", 
-    "amount": 160, 
-    "_date": "99b5327010"
   }
 ]
