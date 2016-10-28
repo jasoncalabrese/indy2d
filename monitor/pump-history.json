@@ -1,5 +1,74 @@
 [
   {
+    "programmed": 0.85, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-10-28T03:55:03 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-10-28T03:55:03", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.425, 
+            "age": 77
+          }, 
+          {
+            "amount": 0.075, 
+            "age": 87
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c08114dc00357c0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100220022000c00", 
+    "amount": 0.85, 
+    "unabsorbed": 0.3, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "83b7231c10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 287, 
+    "bg_target_high": 180, 
+    "_description": "BolusWizard 2016-10-28T03:55:03 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-10-28T03:55:03", 
+    "_body": "005100c85a6e2e000000000c0022b4", 
+    "_head": "5b1f", 
+    "unabsorbed_insulin_total": 0.3, 
+    "correction_estimate": 1.15, 
+    "_date": "83b7031c10", 
+    "bolus_estimate": 0.85, 
+    "bg_target_low": 110, 
+    "carb_ratio": 20.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 90
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-10-28T03:54:11 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-10-28T03:54:11", 
+    "_body": "c23647", 
+    "_head": "3f23", 
+    "amount": 287, 
+    "_date": "8bb6e37c10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-10-28T03:54:11 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-10-28T03:54:11", 
+    "_body": "", 
+    "_head": "0a1f", 
+    "amount": 287, 
+    "_date": "8bb6237c90"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-10-28T03:51:16 head[2], body[0] op[0x16]", 
