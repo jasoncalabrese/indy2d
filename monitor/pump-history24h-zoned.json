@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-11-04T23:44:22 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-11-04T23:44:22-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "96ec174410"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-11-04T23:44:22 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-11-04T23:44:22-07:00", 
+    "_body": "00", 
+    "_head": "3325", 
+    "rate": 0.925, 
+    "_date": "96ec174410"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-11-04T23:39:26 head[2], body[0] op[0x16]", 
     "timestamp": "2016-11-04T23:39:26-07:00", 
     "_body": "", 
@@ -3904,51 +3923,5 @@
     "_head": "3328", 
     "rate": 1.0, 
     "_date": "8bc2154310"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-11-03T20:39:29 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-11-03T20:39:29-07:00", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c051cfbc0", 
-        "data": [
-          {
-            "amount": 0.7, 
-            "age": 251
-          }
-        ], 
-        "_date": ""
-      }
-    ], 
-    "programmed": 1.9, 
-    "duration": 0, 
-    "amount": 1.9, 
-    "unabsorbed": 0.0, 
-    "_head": "01004c004c000000", 
-    "type": "normal", 
-    "_date": "9de7340310"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "_description": "BolusWizard 2016-11-03T20:39:29 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-11-03T20:39:29-07:00", 
-    "_body": "265000c85a6e00004c000000004cb4", 
-    "carb_input": 38, 
-    "bg_target_high": 180, 
-    "sensitivity": 90, 
-    "carb_ratio": 20.0, 
-    "food_estimate": 1.9, 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "bg_target_low": 110, 
-    "_head": "5b00", 
-    "bolus_estimate": 1.9, 
-    "_date": "9de7140310"
   }
 ]
