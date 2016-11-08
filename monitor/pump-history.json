@@ -1,5 +1,18 @@
 [
   {
+    "programmed": 0.6, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-11-07T21:51:12 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-11-07T21:51:12", 
+    "_body": "", 
+    "_head": "0100180018002000", 
+    "amount": 0.6, 
+    "unabsorbed": 0.8, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "8cf3356710"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-11-07T21:46:43 head[2], body[0] op[0x16]", 
@@ -745,59 +758,5 @@
     "_head": "3316", 
     "rate": 0.55, 
     "_date": "abf30f4710"
-  }, 
-  {
-    "programmed": 0.5, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-11-07T15:46:54 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-11-07T15:46:54", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.5, 
-            "age": 199
-          }, 
-          {
-            "amount": 1.3, 
-            "age": 209
-          }, 
-          {
-            "amount": 0.8, 
-            "age": 349
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c0b14c7c034d1c0205dd0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100140014000000", 
-    "amount": 0.5, 
-    "unabsorbed": 0.0, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "b6ee2f0710"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "bg_target_high": 180, 
-    "_description": "BolusWizard 2016-11-07T15:46:54 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-11-07T15:46:54", 
-    "_body": "125000c8506e0000240000000024b4", 
-    "_head": "5b00", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "_date": "b6ee0f0710", 
-    "bolus_estimate": 0.9, 
-    "bg_target_low": 110, 
-    "carb_ratio": 20.0, 
-    "food_estimate": 0.9, 
-    "carb_input": 18, 
-    "sensitivity": 80
   }
 ]
