@@ -7,86 +7,83 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-11-26T08:57:29.000Z", 
+      "timestamp": "2016-11-26T09:13:27.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 46.05, 
-    "clock": "2016-11-26T00:57:26-08:00"
+    "reservoir": 45.5, 
+    "clock": "2016-11-26T01:13:14-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 251, 
+      "bg": 240, 
       "temp": "absolute", 
-      "snoozeBG": 135, 
-      "timestamp": "2016-11-26T08:59:08.000Z", 
+      "snoozeBG": 78, 
+      "timestamp": "2016-11-26T09:14:59.000Z", 
+      "rate": 0, 
+      "reason": "COB: 0, Dev: 9, BGI: -9.04, ISF: 77, Target: 108; Eventual BG 78 < 108, setting -0.8U/hr", 
+      "COB": 0, 
+      "eventualBG": 78, 
+      "duration": 30, 
+      "tick": -7, 
+      "IOB": 2.22
+    }, 
+    "iob": {
+      "netbasalinsulin": 3.6, 
+      "timestamp": "2016-11-26T09:13:14.000Z", 
+      "activity": 0.0235, 
+      "basaliob": 2.22, 
+      "hightempinsulin": 3.9, 
+      "bolussnooze": 0, 
+      "iob": 2.22
+    }, 
+    "enacted": {
+      "bg": 240, 
+      "temp": "absolute", 
+      "snoozeBG": 78, 
+      "recieved": true, 
       "predBGs": {
         "IOB": [
-          251, 
-          251, 
-          249, 
-          247, 
-          244, 
           240, 
-          235, 
-          229, 
-          222, 
-          215, 
-          207, 
+          232, 
+          224, 
+          216, 
+          208, 
           199, 
           190, 
           181, 
-          172, 
+          173, 
           164, 
-          157, 
-          150, 
-          144, 
-          138, 
-          133, 
-          129, 
-          125, 
-          121, 
+          155, 
+          147, 
+          139, 
+          131, 
+          124, 
           118, 
-          115, 
           113, 
-          110, 
-          109, 
-          107, 
-          106, 
-          105, 
-          104, 
-          104, 
-          103
+          108, 
+          103, 
+          99, 
+          96, 
+          93, 
+          90, 
+          88, 
+          86, 
+          84, 
+          83, 
+          82, 
+          81, 
+          80
         ]
       }, 
-      "reason": "COB: 0, Dev: 52, BGI: -8.23, ISF: 77, Target: 80; Eventual BG 135 >= 80, temp 2.95 >~ req 2.3U/hr", 
+      "reason": "COB: 0, Dev: 9, BGI: -9.04, ISF: 77, Target: 108; Eventual BG 78 < 108, setting -0.8U/hr", 
+      "rate": 0, 
       "COB": 0, 
-      "eventualBG": 135, 
-      "tick": "+1", 
-      "IOB": 2.182
-    }, 
-    "iob": {
-      "netbasalinsulin": 3.5, 
-      "timestamp": "2016-11-26T08:57:26.000Z", 
-      "activity": 0.0214, 
-      "basaliob": 2.182, 
-      "hightempinsulin": 3.8, 
-      "bolussnooze": 0, 
-      "iob": 2.182
-    }, 
-    "enacted": {
-      "bg": 244, 
-      "temp": "absolute", 
-      "snoozeBG": 160, 
-      "recieved": true, 
-      "reason": "COB: 0, Dev: 56, BGI: -6.27, ISF: 77, Target: 80; Eventual BG 160 >= 80, temp 2.45<2.95U/hr", 
-      "rate": 2.95, 
-      "COB": 0, 
-      "eventualBG": 160, 
-      "timestamp": "2016-11-26T08:34:40.000Z", 
+      "eventualBG": 78, 
+      "timestamp": "2016-11-26T09:15:30.000Z", 
       "duration": 30, 
-      "tick": "+4", 
-      "IOB": 1.827
+      "tick": -7, 
+      "IOB": 2.22
     }
   }, 
   "mmtune": {
@@ -94,36 +91,41 @@
       [
         "916.540", 
         5, 
-        -83
+        -75
       ], 
       [
         "916.564", 
         5, 
-        -78
+        -67
       ], 
       [
         "916.588", 
         5, 
-        -77
+        -66
       ], 
       [
         "916.612", 
         5, 
-        -77
+        -66
       ], 
       [
         "916.636", 
         5, 
-        -78
+        -66
       ], 
       [
         "916.660", 
         3, 
-        -87
+        -80
+      ], 
+      [
+        "916.684", 
+        5, 
+        -74
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2016-11-26T08:57:10.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2016-11-26T09:12:59.000Z", 
     "usedDefault": false
   }
 }
