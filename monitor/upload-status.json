@@ -7,41 +7,19 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-03T15:40:23.000Z", 
+      "timestamp": "2016-12-03T15:44:45.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 144.525, 
-    "clock": "2016-12-03T07:40:18-08:00"
+    "reservoir": 144.45, 
+    "clock": "2016-12-03T07:44:44-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 119, 
       "temp": "absolute", 
-      "snoozeBG": 126, 
-      "timestamp": "2016-12-03T15:41:45.000Z", 
-      "rate": 0.775, 
-      "reason": "COB: 0, Dev: 2, BGI: 0.8, ISF: 89, Target: 116; Eventual BG 126 >= 116, temp 0.55<0.775U/hr", 
-      "COB": 0, 
-      "eventualBG": 126, 
-      "duration": 30, 
-      "tick": "+2", 
-      "IOB": -0.067
-    }, 
-    "iob": {
-      "netbasalinsulin": -0.2, 
-      "timestamp": "2016-12-03T15:40:18.000Z", 
-      "activity": -0.0018, 
-      "basaliob": -0.067, 
-      "hightempinsulin": 0.25, 
-      "bolussnooze": 0, 
-      "iob": -0.067
-    }, 
-    "enacted": {
-      "bg": 119, 
-      "temp": "absolute", 
-      "snoozeBG": 126, 
-      "recieved": true, 
+      "snoozeBG": 123, 
+      "timestamp": "2016-12-03T15:46:37.000Z", 
       "predBGs": {
         "IOB": [
           119, 
@@ -51,28 +29,53 @@
           123, 
           124, 
           125, 
+          125, 
           126, 
           126, 
-          127, 
-          128, 
-          128, 
-          128, 
-          128, 
-          129, 
-          129, 
-          129, 
-          129, 
-          129, 
-          129, 
-          129, 
-          129, 
-          129, 
-          129, 
-          129, 
-          129, 
-          128
+          126, 
+          126, 
+          126, 
+          126, 
+          126, 
+          126, 
+          125, 
+          125, 
+          124, 
+          124, 
+          123, 
+          123, 
+          123, 
+          122, 
+          122, 
+          121, 
+          121, 
+          120, 
+          120, 
+          120, 
+          120, 
+          119
         ]
       }, 
+      "reason": "COB: 0, Dev: 3, BGI: 0.76, ISF: 89, Target: 116; Eventual BG 123 >= 116, 27m@0.225 = 0.101 > req 0.08+20%. Setting temp basal of 0.7U/hr, but 27m left and 0.775 ~ req 0.7U/hr: no action required", 
+      "COB": 0, 
+      "eventualBG": 123, 
+      "tick": "+2", 
+      "IOB": -0.009
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.15, 
+      "timestamp": "2016-12-03T15:44:44.000Z", 
+      "activity": -0.0017, 
+      "basaliob": -0.009, 
+      "hightempinsulin": 0.3, 
+      "bolussnooze": 0, 
+      "iob": -0.009
+    }, 
+    "enacted": {
+      "bg": 119, 
+      "temp": "absolute", 
+      "snoozeBG": 126, 
+      "recieved": true, 
       "reason": "COB: 0, Dev: 2, BGI: 0.8, ISF: 89, Target: 116; Eventual BG 126 >= 116, temp 0.55<0.775U/hr", 
       "rate": 0.775, 
       "COB": 0, 
@@ -84,9 +87,45 @@
     }
   }, 
   "mmtune": {
-    "scanDetails": [], 
-    "setFreq": 916.63, 
-    "timestamp": "2016-12-03T15:39:49.000Z", 
-    "usedDefault": true
+    "scanDetails": [
+      [
+        "916.540", 
+        5, 
+        -74
+      ], 
+      [
+        "916.564", 
+        5, 
+        -66
+      ], 
+      [
+        "916.588", 
+        5, 
+        -63
+      ], 
+      [
+        "916.612", 
+        5, 
+        -63
+      ], 
+      [
+        "916.636", 
+        5, 
+        -63
+      ], 
+      [
+        "916.660", 
+        5, 
+        -66
+      ], 
+      [
+        "916.684", 
+        5, 
+        -72
+      ]
+    ], 
+    "setFreq": 916.636, 
+    "timestamp": "2016-12-03T15:44:26.000Z", 
+    "usedDefault": false
   }
 }
