@@ -7,79 +7,74 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-14T14:15:52.000Z", 
+      "timestamp": "2016-12-14T14:22:24.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 108.7, 
-    "clock": "2016-12-14T06:15:58-08:00"
+    "reservoir": 108.65, 
+    "clock": "2016-12-14T06:22:28-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 72, 
+      "bg": 73, 
       "temp": "absolute", 
       "snoozeBG": 109, 
-      "timestamp": "2016-12-14T14:17:27.000Z", 
-      "rate": 0.525, 
-      "reason": "COB: 0, Dev: -11, BGI: 2.07, ISF: 88, Target: 80; Eventual BG 109 > 80 but Min. Delta 0.20 < Exp. Delta 0.5; setting current basal of 0.525 as temp. Setting neutral temp basal of 0.525U/hr", 
+      "timestamp": "2016-12-14T14:24:00.000Z", 
+      "predBGs": {
+        "IOB": [
+          73, 
+          74, 
+          75, 
+          76, 
+          77, 
+          79, 
+          80, 
+          82, 
+          84, 
+          86, 
+          88, 
+          90, 
+          93, 
+          95, 
+          97, 
+          99, 
+          100, 
+          102, 
+          104, 
+          105, 
+          106, 
+          107, 
+          108, 
+          109, 
+          110, 
+          110, 
+          111, 
+          111, 
+          111, 
+          111, 
+          112
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -10, BGI: 2.27, ISF: 89, Target: 80; Eventual BG 109 > 80 but Min. Delta 0.53 < Exp. Delta 0.7, temp 0.525 ~ req 0.525U/hr", 
       "COB": 0, 
       "eventualBG": 109, 
-      "duration": 30, 
       "tick": "+1", 
-      "IOB": -0.549
+      "IOB": -0.516
     }, 
     "iob": {
       "netbasalinsulin": -0.9, 
-      "timestamp": "2016-12-14T14:15:58.000Z", 
-      "activity": -0.0047, 
-      "basaliob": -0.549, 
+      "timestamp": "2016-12-14T14:22:28.000Z", 
+      "activity": -0.0051, 
+      "basaliob": -0.516, 
       "hightempinsulin": 0.05, 
       "bolussnooze": 0, 
-      "iob": -0.549
+      "iob": -0.516
     }, 
     "enacted": {
       "bg": 72, 
       "temp": "absolute", 
       "snoozeBG": 109, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          72, 
-          72, 
-          73, 
-          74, 
-          75, 
-          76, 
-          78, 
-          80, 
-          82, 
-          84, 
-          87, 
-          89, 
-          92, 
-          95, 
-          98, 
-          100, 
-          103, 
-          105, 
-          108, 
-          110, 
-          112, 
-          114, 
-          116, 
-          117, 
-          118, 
-          120, 
-          121, 
-          121, 
-          122, 
-          123, 
-          124, 
-          124, 
-          124, 
-          125
-        ]
-      }, 
       "reason": "COB: 0, Dev: -11, BGI: 2.07, ISF: 88, Target: 80; Eventual BG 109 > 80 but Min. Delta 0.20 < Exp. Delta 0.5; setting current basal of 0.525 as temp. Setting neutral temp basal of 0.525U/hr", 
       "rate": 0.525, 
       "COB": 0, 
@@ -95,56 +90,56 @@
       [
         "916.300", 
         1, 
-        -96
+        -95
+      ], 
+      [
+        "916.324", 
+        2, 
+        -91
       ], 
       [
         "916.348", 
         2, 
-        -92
+        -91
       ], 
       [
         "916.540", 
-        5, 
-        -55
+        4, 
+        -64
       ], 
       [
         "916.564", 
         5, 
-        -51
+        -49
       ], 
       [
         "916.588", 
         5, 
-        -50
+        -48
       ], 
       [
         "916.612", 
         5, 
-        -50
+        -48
       ], 
       [
         "916.636", 
         5, 
-        -50
+        -48
       ], 
       [
         "916.660", 
         5, 
-        -52
+        -49
       ], 
       [
         "916.684", 
         5, 
-        -59
-      ], 
-      [
-        "916.852", 
-        2, 
-        -91
+        -55
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-12-14T14:15:35.000Z", 
+    "timestamp": "2016-12-14T14:22:05.000Z", 
     "usedDefault": false
   }
 }
