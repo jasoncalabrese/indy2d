@@ -7,72 +7,65 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-18T14:30:37.000Z", 
+      "timestamp": "2016-12-18T14:39:59.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 82.9, 
-    "clock": "2016-12-18T06:30:15-08:00"
+    "reservoir": 82.875, 
+    "clock": "2016-12-18T06:40:04-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 119, 
+      "bg": 122, 
       "temp": "absolute", 
-      "snoozeBG": 100, 
-      "timestamp": "2016-12-18T14:34:33.000Z", 
+      "snoozeBG": 117, 
+      "timestamp": "2016-12-18T14:43:45.000Z", 
       "predBGs": {
         "IOB": [
+          122, 
+          121, 
+          120, 
           119, 
+          118, 
+          117, 
           117, 
           116, 
+          115, 
           114, 
+          113, 
+          113, 
           112, 
-          110, 
-          109, 
-          108, 
-          106, 
-          105, 
-          104, 
-          104, 
-          103, 
-          103, 
-          103, 
-          103, 
-          103, 
-          104, 
-          104, 
-          105, 
-          105, 
-          106, 
-          107, 
-          107, 
-          108, 
-          109, 
-          109, 
-          110, 
-          110, 
           111, 
           111, 
-          112, 
-          112, 
-          112, 
-          113
+          111, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          111
         ]
       }, 
-      "reason": "COB: 0, Dev: -3, BGI: -1.36, ISF: 94, Target: 102; Eventual BG 100 < 102, temp 0 ~< req 0.425U/hr", 
+      "reason": "COB: 0, Dev: 4, BGI: -1.45, ISF: 94, Target: 102; Eventual BG 117 >= 102, temp 0.625<0.725U/hr, but 28m left and 0.625 ~ req 0.725U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 100, 
-      "tick": "+1", 
-      "IOB": 0.174
+      "eventualBG": 117, 
+      "tick": "+0", 
+      "IOB": 0.094
     }, 
     "iob": {
-      "netbasalinsulin": 0.25, 
-      "timestamp": "2016-12-18T14:30:15.000Z", 
-      "activity": 0.0029, 
-      "basaliob": 0.174, 
-      "hightempinsulin": 0.45, 
+      "netbasalinsulin": 0.15, 
+      "timestamp": "2016-12-18T14:40:04.000Z", 
+      "activity": 0.0031, 
+      "basaliob": 0.094, 
+      "hightempinsulin": 0.4, 
       "bolussnooze": 0, 
-      "iob": 0.174
+      "iob": 0.094
     }, 
     "enacted": {
       "bg": 120, 
@@ -92,9 +85,24 @@
   "mmtune": {
     "scanDetails": [
       [
+        "916.372", 
+        1, 
+        -94
+      ], 
+      [
+        "916.396", 
+        2, 
+        -91
+      ], 
+      [
+        "916.444", 
+        1, 
+        -93
+      ], 
+      [
         "916.540", 
         5, 
-        -73
+        -75
       ], 
       [
         "916.564", 
@@ -113,22 +121,22 @@
       ], 
       [
         "916.636", 
-        3, 
-        -75
+        5, 
+        -60
       ], 
       [
         "916.660", 
         5, 
-        -61
+        -62
       ], 
       [
         "916.684", 
-        5, 
-        -66
+        3, 
+        -79
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2016-12-18T14:29:50.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2016-12-18T14:39:49.000Z", 
     "usedDefault": false
   }
 }
