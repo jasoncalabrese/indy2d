@@ -7,119 +7,114 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-23T09:04:10.000Z", 
+      "timestamp": "2016-12-23T09:14:50.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 85.225, 
-    "clock": "2016-12-23T01:04:19-08:00"
+    "reservoir": 84.85, 
+    "clock": "2016-12-23T01:14:09-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 106, 
+      "bg": 95, 
       "temp": "absolute", 
-      "snoozeBG": 137, 
-      "timestamp": "2016-12-23T09:06:09.000Z", 
+      "snoozeBG": 72, 
+      "timestamp": "2016-12-23T09:16:53.000Z", 
+      "rate": 0.525, 
+      "reason": "COB: 0, Dev: -16, BGI: 0.27, ISF: 90, Target: 80; Eventual BG 72 < 80, setting 0.525U/hr", 
+      "COB": 0, 
+      "eventualBG": 72, 
+      "duration": 30, 
+      "tick": -2, 
+      "IOB": 0.076
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.3, 
+      "timestamp": "2016-12-23T09:14:09.000Z", 
+      "activity": -0.0006, 
+      "basaliob": 0.076, 
+      "hightempinsulin": 0.6, 
+      "bolussnooze": 0, 
+      "iob": 0.076
+    }, 
+    "enacted": {
+      "bg": 95, 
+      "temp": "absolute", 
+      "snoozeBG": 72, 
+      "recieved": true, 
       "predBGs": {
         "IOB": [
-          106, 
-          109, 
-          112, 
-          115, 
-          117, 
-          119, 
-          121, 
-          122, 
-          123, 
-          123, 
-          123, 
-          123, 
-          122, 
-          120, 
-          118, 
-          116, 
-          114, 
-          112, 
-          109, 
-          107, 
-          104, 
-          102, 
-          99, 
-          97, 
           95, 
           93, 
           91, 
           89, 
-          87, 
+          88, 
           86, 
+          85, 
+          85, 
+          84, 
           84, 
           83, 
+          83, 
+          83, 
+          83, 
+          83, 
+          82, 
+          82, 
+          82, 
           82, 
           81, 
+          81, 
+          81, 
+          81, 
+          81, 
+          81, 
+          80, 
+          80, 
           80, 
           79, 
-          78, 
-          78, 
-          78, 
-          77
+          79, 
+          79, 
+          79, 
+          78
         ]
       }, 
-      "reason": "COB: 0, Dev: 19, BGI: 0.45, ISF: 90, Target: 80; Eventual BG 137 >= 80, temp 2.35 >~ req 2.15U/hr", 
+      "reason": "COB: 0, Dev: -16, BGI: 0.27, ISF: 90, Target: 80; Eventual BG 72 < 80, setting 0.525U/hr", 
+      "rate": 0.525, 
       "COB": 0, 
-      "eventualBG": 137, 
-      "tick": "+9", 
-      "IOB": -0.131
-    }, 
-    "iob": {
-      "netbasalinsulin": -0.65, 
-      "timestamp": "2016-12-23T09:04:19.000Z", 
-      "activity": -0.001, 
-      "basaliob": -0.131, 
-      "hightempinsulin": 0.4, 
-      "bolussnooze": 0, 
-      "iob": -0.131
-    }, 
-    "enacted": {
-      "bg": 97, 
-      "temp": "absolute", 
-      "snoozeBG": 129, 
-      "recieved": true, 
-      "reason": "COB: 0, Dev: 11, BGI: 0.59, ISF: 90, Target: 80; Eventual BG 129 >= 80, temp 0.975<2.05U/hr", 
-      "rate": 2.025, 
-      "COB": 0, 
-      "eventualBG": 129, 
-      "timestamp": "2016-12-23T09:00:45.000Z", 
+      "eventualBG": 72, 
+      "timestamp": "2016-12-23T09:17:07.000Z", 
       "duration": 30, 
-      "tick": "+12", 
-      "IOB": -0.238
+      "tick": -2, 
+      "IOB": 0.076
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
         "916.540", 
-        4, 
-        -82
+        5, 
+        -74
       ], 
       [
         "916.564", 
         5, 
-        -65
+        -62
       ], 
       [
         "916.588", 
         5, 
-        -62
+        -61
       ], 
       [
         "916.612", 
         5, 
-        -62
+        -61
       ], 
       [
         "916.636", 
         5, 
-        -62
+        -61
       ], 
       [
         "916.660", 
@@ -132,8 +127,8 @@
         -67
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-12-23T09:03:53.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2016-12-23T09:13:39.000Z", 
     "usedDefault": false
   }
 }
