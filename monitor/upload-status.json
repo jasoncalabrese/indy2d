@@ -3,104 +3,99 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.54
+      "voltage": 1.53
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-26T13:52:51.000Z", 
+      "timestamp": "2017-01-26T14:04:43.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 25.875, 
-    "clock": "2017-01-26T05:53:13-08:00"
+    "clock": "2017-01-26T06:05:05-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 128, 
+      "bg": 109, 
       "temp": "absolute", 
-      "snoozeBG": 88, 
-      "timestamp": "2017-01-26T13:54:18.000Z", 
-      "predBGs": {
-        "IOB": [
-          128, 
-          122, 
-          117, 
-          112, 
-          107, 
-          102, 
-          98, 
-          94, 
-          91, 
-          89, 
-          87, 
-          86, 
-          85, 
-          84, 
-          84, 
-          84, 
-          85, 
-          85, 
-          86, 
-          87, 
-          87, 
-          88, 
-          89, 
-          90, 
-          91, 
-          92, 
-          93, 
-          94, 
-          94, 
-          95, 
-          96, 
-          96, 
-          97, 
-          97, 
-          97, 
-          98
-        ]
-      }, 
-      "reason": "COB: 0, Dev: -16, BGI: -2.14, ISF: 89, Target: 100; Eventual BG 88 < 100, temp 0 ~< req 0U/hr", 
+      "snoozeBG": 72, 
+      "timestamp": "2017-01-26T14:06:05.000Z", 
+      "rate": 0, 
+      "reason": "COB: 0, Dev: -27, BGI: -2.32, ISF: 89, Target: 100; Eventual BG 72 < 100, setting -0.7U/hr", 
       "COB": 0, 
-      "eventualBG": 88, 
-      "tick": -6, 
-      "IOB": 0.269
+      "eventualBG": 72, 
+      "duration": 30, 
+      "tick": -7, 
+      "IOB": 0.108
     }, 
     "iob": {
       "netbasalinsulin": 0.1, 
-      "timestamp": "2017-01-26T13:53:13.000Z", 
-      "activity": 0.0048, 
-      "basaliob": 0.269, 
+      "timestamp": "2017-01-26T14:05:05.000Z", 
+      "activity": 0.0052, 
+      "basaliob": 0.108, 
       "hightempinsulin": 0.8, 
       "bolussnooze": 0, 
-      "iob": 0.269
+      "iob": 0.108
     }, 
     "enacted": {
-      "bg": 142, 
+      "bg": 109, 
       "temp": "absolute", 
-      "snoozeBG": 116, 
+      "snoozeBG": 72, 
       "recieved": true, 
-      "reason": "COB: 0, Dev: 17, BGI: 0.13, ISF: 89, Target: 100; Eventual BG 116 >= 100, temp 1.175<0.9U/hr", 
-      "rate": 0.9, 
+      "predBGs": {
+        "IOB": [
+          109, 
+          102, 
+          96, 
+          90, 
+          85, 
+          81, 
+          77, 
+          73, 
+          70, 
+          68, 
+          67, 
+          66, 
+          66, 
+          66, 
+          67, 
+          67, 
+          68, 
+          69, 
+          70, 
+          71, 
+          71, 
+          72, 
+          73, 
+          74, 
+          75, 
+          76, 
+          77, 
+          77, 
+          78, 
+          78, 
+          79, 
+          79, 
+          79, 
+          80
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -27, BGI: -2.32, ISF: 89, Target: 100; Eventual BG 72 < 100, setting -0.7U/hr", 
+      "rate": 0, 
       "COB": 0, 
-      "eventualBG": 116, 
-      "timestamp": "2017-01-26T13:17:08.000Z", 
+      "eventualBG": 72, 
+      "timestamp": "2017-01-26T14:06:57.000Z", 
       "duration": 30, 
-      "tick": "+3", 
-      "IOB": 0.486
+      "tick": -7, 
+      "IOB": 0.108
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
-        "916.540", 
-        4, 
-        -71
-      ], 
-      [
         "916.564", 
         4, 
-        -63
+        -62
       ], 
       [
         "916.588", 
@@ -110,12 +105,12 @@
       [
         "916.612", 
         5, 
-        -51
+        -50
       ], 
       [
         "916.636", 
         5, 
-        -51
+        -50
       ], 
       [
         "916.660", 
@@ -128,8 +123,8 @@
         -54
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2017-01-26T13:52:29.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2017-01-26T14:04:22.000Z", 
     "usedDefault": false
   }
 }
