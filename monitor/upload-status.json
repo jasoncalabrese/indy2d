@@ -3,76 +3,30 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.42
+      "voltage": 1.41
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-19T15:51:28.000Z", 
+      "timestamp": "2017-02-19T16:02:57.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 63.35, 
-    "clock": "2017-02-19T07:51:41-08:00"
+    "reservoir": 63.175, 
+    "clock": "2017-02-19T08:03:28-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 105, 
-      "temp": "absolute", 
-      "snoozeBG": 112, 
-      "timestamp": "2017-02-19T15:52:51.000Z", 
-      "predBGs": {
-        "IOB": [
-          105, 
-          106, 
-          106, 
-          107, 
-          108, 
-          108, 
-          108, 
-          109, 
-          109, 
-          109, 
-          109, 
-          109, 
-          109, 
-          108, 
-          108, 
-          107, 
-          107, 
-          106, 
-          106, 
-          105, 
-          104, 
-          104, 
-          103, 
-          103, 
-          102, 
-          102, 
-          101, 
-          101, 
-          100, 
-          100, 
-          100, 
-          99, 
-          99, 
-          99, 
-          98
-        ]
-      }, 
-      "reason": "COB: 0, Dev: 5, BGI: 0, ISF: 90, Target: 100; Eventual BG 112 >= 100, 29m@0.350 = 0.169 > req 0.13+20%. Setting temp basal of 0.875U/hr, but 29m left and 0.975 ~ req 0.875U/hr: no action required", 
-      "COB": 0, 
-      "eventualBG": 112, 
-      "tick": "+3", 
-      "IOB": -0.021
+      "timestamp": "2017-02-19T16:04:26.000Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Feb 19 2017 07:52:39 GMT-0800 (PST) but your system time is Sun Feb 19 2017 08:04:26 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": -0.2, 
-      "timestamp": "2017-02-19T15:51:41.000Z", 
+      "netbasalinsulin": -0.05, 
+      "timestamp": "2017-02-19T16:03:28.000Z", 
       "activity": 0, 
-      "basaliob": -0.021, 
-      "hightempinsulin": 0.15, 
+      "basaliob": 0.029, 
+      "hightempinsulin": 0.2, 
       "bolussnooze": 0, 
-      "iob": -0.021
+      "iob": 0.029
     }, 
     "enacted": {
       "bg": 105, 
@@ -92,28 +46,53 @@
   "mmtune": {
     "scanDetails": [
       [
-        "916.300", 
-        1, 
-        -95
+        "916.396", 
+        2, 
+        -94
+      ], 
+      [
+        "916.540", 
+        5, 
+        -75
+      ], 
+      [
+        "916.564", 
+        5, 
+        -61
+      ], 
+      [
+        "916.588", 
+        5, 
+        -59
+      ], 
+      [
+        "916.612", 
+        5, 
+        -59
+      ], 
+      [
+        "916.636", 
+        5, 
+        -59
+      ], 
+      [
+        "916.660", 
+        5, 
+        -60
       ], 
       [
         "916.684", 
-        2, 
-        -85
+        5, 
+        -62
       ], 
       [
         "916.852", 
         1, 
         -97
-      ], 
-      [
-        "916.876", 
-        1, 
-        -97
       ]
     ], 
-    "setFreq": 916.684, 
-    "timestamp": "2017-02-19T15:51:00.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2017-02-19T16:02:35.000Z", 
     "usedDefault": false
   }
 }
